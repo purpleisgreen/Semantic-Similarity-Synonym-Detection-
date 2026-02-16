@@ -139,9 +139,10 @@ def spliter(text):
 
 
 if __name__ == "__main__":
-    files = (["WarAndPeace.txt", "SwannsWay.txt"])
+    files = (["WarAndPeace.txt", "SwannsWay.txt"]) #please modify when using
     semanticDescriptors = build_semantic_descriptors_from_file0(files)
     print(run_similarity_test("test.txt", semanticDescriptors, cosine_similarity))
+
 
 
 
