@@ -1,12 +1,3 @@
-'''
-- Part C done
-- Part B done
-- Part A done
-- Part D done but not tested
-- Part E
-'''
-
-
 def build_semantic_descriptors(sentences):
     res = {}
     for sentence in sentences:
@@ -151,5 +142,6 @@ if __name__ == "__main__":
     files = (["WarAndPeace.txt", "SwannsWay.txt"])
     semanticDescriptors = build_semantic_descriptors_from_file0(files)
     print(run_similarity_test("test.txt", semanticDescriptors, cosine_similarity))
+
 
 
